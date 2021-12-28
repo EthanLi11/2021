@@ -1,0 +1,4 @@
+
+# kafka
+
+* consumer的数量不能超过partition的数量，一个partition只能被一个consumer消费，如果consumer过多超出的部分则会被闲置

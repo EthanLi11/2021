@@ -14,4 +14,8 @@ func main() {
 	s := &struct2{}
 	a := unsafe.Sizeof(s)
 	print(a)
+
+	var t = 1
+	t++
+	print(t)
 }
